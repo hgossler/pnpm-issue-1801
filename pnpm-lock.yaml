@@ -1,0 +1,11 @@
+importers:
+  .:
+    specifiers: {}
+  packages/sub-package1:
+    specifiers: {}
+  packages/sub-package2:
+    dependencies:
+      sub-package1: 'link:../sub-package1'
+    specifiers:
+      sub-package1: 0.0.1
+lockfileVersion: 5

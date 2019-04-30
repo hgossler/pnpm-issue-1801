@@ -1,0 +1,14 @@
+{
+  "name": "sub-package1",
+  "description": "Minimal example for pnpm issue",
+  "private": true,
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "bin": {
+    "bin1": "./dist/script.js"
+  },
+  "scripts": {
+    "//": "to emulate a compilation step",
+    "prepare": "mkdir -p dist && cp script.ts dist/script.js"
+  }
+}

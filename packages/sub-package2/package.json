@@ -1,0 +1,10 @@
+{
+  "name": "sub-package2",
+  "description": "Minimal example for pnpm issue",
+  "private": true,
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sub-package1": "0.0.1"
+  }
+}
